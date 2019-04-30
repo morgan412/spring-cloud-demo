@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # git 仓库地址
+          uri: https://github.com/morgan412/spring-cloud-demo
+          # 仓库下的搜索路径
+          search-paths: config/config-server-git/conf
+          # git仓库账号
+          username:
+          # git仓库密码
+          password:

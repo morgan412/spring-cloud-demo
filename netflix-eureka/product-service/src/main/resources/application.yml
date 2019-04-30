@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-service
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      # 这里默认是 http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
