@@ -1,9 +1,0 @@
-server:
-  port: 8763
-
-eureka:
-  instance:
-    hostname: peer3
-  client:
-    service-url:
-      defaulZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/

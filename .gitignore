@@ -1,6 +1,7 @@
 HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+target
 
 ### STS ###
 .apt_generated
@@ -27,3 +28,5 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+config/config-client/src/main/resources/static/
+config/config-client/src/main/resources/templates/
