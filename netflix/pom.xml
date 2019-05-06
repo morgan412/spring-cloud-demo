@@ -18,6 +18,8 @@
         <module>order-service-ribbon</module>
         <module>order-service-ribbon-custom</module>
         <module>order-service-feign</module>
+        <module>order-service-ribbon-hystrix</module>
+        <module>order-service-feign-hystrix</module>
     </modules>
 
 </project>
