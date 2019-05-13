@@ -9,3 +9,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    product:
+      path: /product/**
+      serviceId: product-service

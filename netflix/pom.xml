@@ -20,6 +20,8 @@
         <module>order-service-feign</module>
         <module>order-service-ribbon-hystrix</module>
         <module>order-service-feign-hystrix</module>
+        <module>hystrix-dashboard</module>
+        <module>gateway-zuul</module>
     </modules>
 
 </project>
