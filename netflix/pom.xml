@@ -21,6 +21,7 @@
         <module>order-service-ribbon-hystrix</module>
         <module>order-service-feign-hystrix</module>
         <module>hystrix-dashboard</module>
+        <module>hystrix-turbine</module>
         <module>gateway-zuul</module>
     </modules>
 
