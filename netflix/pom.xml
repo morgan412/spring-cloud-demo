@@ -22,7 +22,8 @@
         <module>order-service-feign-hystrix</module>
         <module>hystrix-dashboard</module>
         <module>hystrix-turbine</module>
-        <module>gateway-zuul</module>
+        <module>zuul-gateway</module>
+        <module>zuul-filters</module>
     </modules>
 
 </project>
